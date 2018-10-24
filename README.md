@@ -1,4 +1,4 @@
-#Jmol/JSmol projects
+# Jmol/JSmol projects
 
 Note: JSmol is a new version of Jmol that can run without Java.  Jmol and JSmol are essentially the same program, and these names are sometimes used interchangeably.
 
@@ -14,7 +14,7 @@ Report corrections or questions to Daniel Barich.
 \\parana.kenyon.edu\bio-tutorials
 ```
 
-NOTE: On a Mac computer the slashes go in the opposite orientation. 
+   NOTE: On a Mac computer the slashes go in the opposite orientation. 
 
 2. When the folder opens make a copy of the 'jsmol template' folder.  One way to do so is to right-click on it, click 'copy', left-click within the same folder window (e.g. within the bio-tutorial folder), and click 'paste'. A copy of the folder, called something like "jsmol - template- (Copy) ", should appear. 
 
@@ -44,13 +44,11 @@ The departmental laptops have BlueGriffon installed. If your PC does not have Bl
 14. If not already up, open your tutorial in a browser window (https://internal.kenyon.edu/biology/tutorials/MyMolecule/index.htm) to see how your changes affect the page. You will need to wait a moment for your changes to take effect, after which you can press Control + Shift + R to reload the page and override the cache. You can also try refreshing the browser multiple times. Chrome worked as a browser on the departmental laptops. I've also had Firefox work. 
 Editing the text and buttons.
 1. Find the following code which should start at about line 156:
-
 ```html
 <script language="JavaScript">
 Jmol.jmolButton("select all; labels off; spacefill off; color cpk; wireframe off; ribbons off; cartoons off; backbone on; select protein; backbone off; cartoons on; select *a; color blue; select *b; color magenta;","");
 </script> 
 ```
-
 2. In the code above, blue text indicates code required for every button in the tutorial. Red text is script code, which will vary from one button to the next. The jmolButton command creates a button that, when clicked, will execute the script commands in the first pair of quotes. You'll need to figure out what commands in the list make what effects, and how to tailor them to your own molecule. Be sure to separate these commands with semicolons (;), and do not press Enter between them.  
 3. Command list for first button, with explanations
 * `select all` - The entire molecule will be affected by subsequent commands.
@@ -69,7 +67,7 @@ Jmol.jmolButton("select all; labels off; spacefill off; color cpk; wireframe off
 * `select *b` - Only chain b will be affected.
 * `color purple` - Purple will be applied(to chain b).
 
-Note: Begin each button's list of commands with select all followed by commands to turn on/off each of the possible renderings, as shown in the first eight commands of this example. This way, the reader of your tutorial will not have to click on each and every button in sequence. For ease of readability, after each select command, place the off commands in a group before the on commands, as in the example.
+   Note: Begin each button's list of commands with select all followed by commands to turn on/off each of the possible renderings, as shown in the first eight commands of this example. This way, the reader of your tutorial will not have to click on each and every button in sequence. For ease of readability, after each select command, place the off commands in a group before the on commands, as in the example.
 
 4. Edit the first button by changing "color blue" to "color red." Save file in BlueGriffon.
 
@@ -133,4 +131,4 @@ Whenever a JSmol molecule is displayed, you can generate a moveTo command that, 
 
 ### Troubleshooting
 
-If you run into any problems, please check the [http://biology.kenyon.edu/BMB/jmodel/troubleshooting.htm "Troubleshooting"] page before asking for help.
+If you run into any problems, please check the [Troubleshooting](http://biology.kenyon.edu/BMB/jmodel/troubleshooting.htm) page before asking for help.
