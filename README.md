@@ -42,7 +42,9 @@ The departmental laptops have BlueGriffon installed. If your PC does not have Bl
 12. At around lines 109-112 change the name of the molecule and the authors. This can also be changed on the BlueGriffon editor screen instead of in the source code. 
 13. Save the tutorial in \\parana.kenyon.edu\bio-tutorials\MyMolecule. Note if the file is saved as an htm or html file.
 14. If not already up, open your tutorial in a browser window (https://internal.kenyon.edu/biology/tutorials/MyMolecule/index.htm) to see how your changes affect the page. You will need to wait a moment for your changes to take effect, after which you can press Control + Shift + R to reload the page and override the cache. You can also try refreshing the browser multiple times. Chrome worked as a browser on the departmental laptops. I've also had Firefox work. 
-Editing the text and buttons.
+
+### Editing the text and buttons.
+
 1. Find the following code which should start at about line 156:
 ```html
 <script language="JavaScript">
