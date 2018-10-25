@@ -18,7 +18,7 @@ Report corrections or questions to Daniel Barich.
 
 2. When the folder opens make a copy of the 'jsmol template' folder.  One way to do so is to right-click on it, click 'copy', left-click within the same folder window (e.g. within the bio-tutorial folder), and click 'paste'. A copy of the folder, called something like "jsmol - template- (Copy) ", should appear. 
 
-3. Rename it immediately with your own molecule name.  Keep filenames short, and avoid empty spaces; use underscores instead. 
+3. Rename it immediately with the authors' first and last initials in the same order you will use on your main page (i. e., Jane Doe and John Smith would use JDJS).
 
 The Model consists of:
 
