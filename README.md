@@ -11,7 +11,7 @@ Report corrections or questions to Daniel Barich.
 1. Open the run dialog, either by choosing Start -> Run or by holding down the Windows logo key and pressing R.  Then type the following address:
 
 ```
-\\parana.kenyon.edu\bio-tutorials
+\\parana.kenyon.edu\bio-tutorials\2018
 ```
 
    NOTE: On a Mac computer the slashes go in the opposite orientation. 
