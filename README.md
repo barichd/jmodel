@@ -16,7 +16,7 @@ Report corrections or questions to Daniel Barich.
 
    NOTE: On a Mac computer the slashes go in the opposite orientation. 
 
-2. When the folder opens make a copy of the 'jsmol template' folder.  One way to do so is to right-click on it, click 'copy', left-click within the same folder window (e.g. within the bio-tutorial folder), and click 'paste'. A copy of the folder, called something like "jsmol - template- (Copy) ", should appear. 
+2. When the folder opens make a copy of the 'jsmol template' folder.  One way to do so is to right-click on it, click 'copy', left-click within the same folder window (e.g. within the bio-tutorial folder), and click 'paste'. A copy of the folder with a similar name, should appear.
 
 3. Rename it immediately with the authors' first and last initials in the same order you will use on your main page (i. e., Jane Doe and John Smith would use JDJS).
 
