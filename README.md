@@ -2,13 +2,11 @@
 
 Note: JSmol is a new version of Jmol that can run without Java.  Jmol and JSmol are essentially the same program, and these names are sometimes used interchangeably.
 
-From Biomolecules at Kenyon 
-
 Report corrections or questions to Daniel Barich. 
 
 ## Edit project using BlueGriffon.
 
-1. Open the run dialog, either by choosing Start -> Run or by holding down the Windows logo key and pressing R.  Then type the following address:
+1. Open the Run dialog, either by choosing Start -> Run or by holding down the Windows logo key and pressing R.  Then type the following address:
 
 ```
 \\parana.kenyon.edu\bio-tutorials\2018
@@ -16,19 +14,21 @@ Report corrections or questions to Daniel Barich.
 
    NOTE: On a Mac computer the slashes go in the opposite orientation. 
 
-2. When the folder opens make a copy of the 'jsmol template' folder.  One way to do so is to right-click on it, click 'copy', left-click within the same folder window (e.g. within the bio-tutorial folder), and click 'paste'. A copy of the folder with a similar name, should appear.
+2. When the folder opens, download the model template folder at [http://biology.kenyon.edu/BMB/jmodel.zip].
 
-3. Rename it immediately with the authors' first and last initials in the same order you will use on your main page (i. e., Jane Doe and John Smith would use JDJS).
+3. In the folder you opened in the first step, create a folder for your tutorial named as follows: the authors' first and last initials, all capital letters, in the same order you will use on your main page (i. e., Jane Doe and John Smith would use JDJS).  Open this folder and extract the contents of the downloaded zip archive into it.
 
-The Model consists of:
+Your folder should now contain the following files:
 
 * index.htm: This file contains both the JavaScript code to display the molecule and the text, which you will need to change to your own names, molecule, references, etc.
 * 3gap.pdb: This is the molecule that is loaded when the tutorial is first opened.
 * 1cgp.pdb: This file contains the DNA complex that is loaded later in the tutorial.
 
-4. Open a browser and type in the URL of your copy of the model tutorial. It will be of the form:
+4. Open a browser and type in the URL of your folder. It will be similar to:
 ```
-https://internal.kenyon.edu/biology/tutorials/MyMolecule/index.htm. Note: Always open JSmol tutorials using the web address (with https:). The tutorials will not work if you simply drag the filename into the browser.
+https://internal.kenyon.edu/biology/tutorials/JDJS/index.htm
+```
+Note: Always open JSmol tutorials using the web address (with https:). The tutorials will not work if you simply drag the filename into the browser.
 ```
 5. Push the button after the first sentence under II. General Structure. What does it do? It shows cartoons and colors the peptide chains. We are doing this step now because later we will be looking at the code for it, but we will have replaced the structure with your own at that point. 
 6. Find your structure in RCSB protein data bank. There are often many different structures for the same protein. Make sure you know what you're getting (you can click on the pubmed link to find the paper where this structure was originally reported.) Download the correct pdb as a pdb file (text). The file extension needs to be .pdb 
