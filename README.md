@@ -20,9 +20,9 @@ Report corrections or questions to Daniel Barich.
 
 Your folder should now contain the following files:
 
-* index.htm: This file contains both the JavaScript code to display the molecule and the text, which you will need to change to your own names, molecule, references, etc.
-* 3gap.pdb: This is the molecule that is loaded when the tutorial is first opened.
-* 1cgp.pdb: This file contains the DNA complex that is loaded later in the tutorial.
+* `index.htm`: This file contains both the JavaScript code to display the molecule and the text, which you will need to change to your own names, molecule, references, etc.
+* `3gap.pdb`: This is the molecule that is loaded when the tutorial is first opened.
+* `1cgp.pdb`: This file contains the DNA complex that is loaded later in the tutorial.
 
 4. Open a browser and type in the URL of your folder. It will be of the form:
 ```
@@ -36,12 +36,12 @@ Note: Always open JSmol tutorials using the web address (with https:). The tutor
 Never change the name of the PDB file, as its filename provides the reference for instant access in the Protein Databank. Your PDB file should be at the same level as "3gap.pdb" and "1cgp.pdb".Usually when you initial download the pdb file it goes into a downloads folder. Move into your folder. 
 8. Open BlueGriffon (either from the desktop or the Start menu). 
 The departmental laptops have BlueGriffon installed. If your PC does not have BlueGriffon, download it at [http://bluegriffon.org/#download].
-9. Open the ```index.htm``` in BlueGriffon, (do this by clicking on open file, then typing \\parana.kenyon.edu\bio-tutorials into the dialog box then clicking on your molecule, then the index file, then open.
-10. Click on the Source button near the bottom of the screen.Scroll to the line that starts with ```var loadScript`` (should be about line 58).
-11. Replace the "PDB" filename in ```load 3gap.pdb``` with the name of your own PDB file. **Be sure capitalization is consistent with your own filename.
+9. Open the `index.htm` in BlueGriffon, (do this by clicking on open file, then typing \\parana.kenyon.edu\bio-tutorials into the dialog box then clicking on your molecule, then the index file, then open.
+10. Click on the Source button near the bottom of the screen.Scroll to the line that starts with `var loadScript` (should be about line 58).
+11. Replace the "PDB" filename in `load 3gap.pdb` with the name of your own PDB file. **Be sure capitalization is consistent with your own filename.
 12. At around lines 109-112 change the name of the molecule and the authors. This can also be changed on the BlueGriffon editor screen instead of in the source code. 
 13. Save the tutorial. Note if the file is saved as an htm or html file.
-14. If not already up, open your tutorial in a browser window to see how your changes affect the page. You will need to wait a moment for your changes to take effect, after which you can press Control + Shift + R to reload the page and override the cache. You can also try refreshing the browser multiple times. Chrome worked as a browser on the departmental laptops. I've also had Firefox work. 
+14. If not already up, open your tutorial in a browser window to see how your changes affect the page. You will need to wait a moment for your changes to take effect, after which you can press Control + Shift + R to reload the page and override the cache. You can also try refreshing the browser multiple times. Chrome worked as a browser on the departmental laptops, but Firefox may work as well. 
 
 ### Editing the text and buttons.
 
@@ -73,7 +73,7 @@ Jmol.jmolButton("select all; labels off; spacefill off; color cpk; wireframe off
 
 4. Edit the first button by changing "color blue" to "color red." Save file in BlueGriffon.
 
-5. Reload the page, usually by pressing Control + Shift + R (Pressing Control + R may not work due to browser caching).
+5. Reload the page, usually by pressing `Control + Shift + R` (Pressing `Control + R` may not work due to browser caching).
 
 6. Press the button that you edited in BlueGriffon. What happens?
 
@@ -107,7 +107,7 @@ You can copy the above text wherever you want a new button.
 
 ### More commands
 
-For a reference of Jmol commands, go to JSmol's Interactive Scripting Documentation. To find out how to create check boxes, radio buttons, etc. using the <script> tag, see the Jmol JavaScript Object documentation.
+For a reference of Jmol commands, go to JSmol's Interactive Scripting Documentation at [http://www.stolaf.edu/academics/chemapps/jmol/docs/]. To find out how to create check boxes, radio buttons, etc. using the <script> tag, see the Jmol JavaScript Object documentation ([http://wiki.jmol.org/index.php/Jmol_JavaScript_Object]).
 
 ### Adding reset buttons to your tutorial.
 
