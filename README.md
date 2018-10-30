@@ -24,24 +24,24 @@ Your folder should now contain the following files:
 * 3gap.pdb: This is the molecule that is loaded when the tutorial is first opened.
 * 1cgp.pdb: This file contains the DNA complex that is loaded later in the tutorial.
 
-4. Open a browser and type in the URL of your folder. It will be similar to:
+4. Open a browser and type in the URL of your folder. It will be of the form:
 ```
-https://internal.kenyon.edu/biology/tutorials/JDJS/index.htm
+https://internal.kenyon.edu/biology/tutorials/*Your Moledule Name*/index.htm
 ```
 Note: Always open JSmol tutorials using the web address (with https:). The tutorials will not work if you simply drag the filename into the browser.
 ```
 5. Push the button after the first sentence under II. General Structure. What does it do? It shows cartoons and colors the peptide chains. We are doing this step now because later we will be looking at the code for it, but we will have replaced the structure with your own at that point. 
-6. Find your structure in RCSB protein data bank. There are often many different structures for the same protein. Make sure you know what you're getting (you can click on the pubmed link to find the paper where this structure was originally reported.) Download the correct pdb as a pdb file (text). The file extension needs to be .pdb 
+6. Find your structure in the RCSB protein data bank ([http://www.rcsb.org]. There are often many different structures for the same protein. Make sure you know what you're getting (you can click on the pubmed link to find the paper where this structure was originally reported.) Download the correct PDB as a PDB file (text). The file extension needs to be .PDB 
 7. Copy your PDB file into your own model folder. 
 Never change the name of the PDB file, as its filename provides the reference for instant access in the Protein Databank. Your PDB file should be at the same level as "3gap.pdb" and "1cgp.pdb".Usually when you initial download the pdb file it goes into a downloads folder. Move into your folder. 
 8. Open BlueGriffon (either from the desktop or the Start menu). 
-The departmental laptops have BlueGriffon installed. If your PC does not have BlueGriffon, download it here.
-9. Open \\parana.kenyon.edu\bio-tutorials\MyMolecule\ index.htm in BlueGriffon,(do this by clicking on open file, then typing \\parana.kenyon.edu\bio-tutorials into the dialog box then clicking on your molecule, then the index file, then open.
-10. Click on the Source button near the bottom of the screen.Scroll to the line that starts with var loadScript (should be about line 58).
-11. Replace the "pdb" filename in load 3gap.pdb with the name of your own pdb file. **Be sure capitalization is consistent with your own filename.
+The departmental laptops have BlueGriffon installed. If your PC does not have BlueGriffon, download it at [http://bluegriffon.org/#download].
+9. Open the ```index.htm``` in BlueGriffon, (do this by clicking on open file, then typing \\parana.kenyon.edu\bio-tutorials into the dialog box then clicking on your molecule, then the index file, then open.
+10. Click on the Source button near the bottom of the screen.Scroll to the line that starts with ```var loadScript`` (should be about line 58).
+11. Replace the "PDB" filename in ```load 3gap.pdb``` with the name of your own PDB file. **Be sure capitalization is consistent with your own filename.
 12. At around lines 109-112 change the name of the molecule and the authors. This can also be changed on the BlueGriffon editor screen instead of in the source code. 
-13. Save the tutorial in \\parana.kenyon.edu\bio-tutorials\MyMolecule. Note if the file is saved as an htm or html file.
-14. If not already up, open your tutorial in a browser window (https://internal.kenyon.edu/biology/tutorials/MyMolecule/index.htm) to see how your changes affect the page. You will need to wait a moment for your changes to take effect, after which you can press Control + Shift + R to reload the page and override the cache. You can also try refreshing the browser multiple times. Chrome worked as a browser on the departmental laptops. I've also had Firefox work. 
+13. Save the tutorial. Note if the file is saved as an htm or html file.
+14. If not already up, open your tutorial in a browser window to see how your changes affect the page. You will need to wait a moment for your changes to take effect, after which you can press Control + Shift + R to reload the page and override the cache. You can also try refreshing the browser multiple times. Chrome worked as a browser on the departmental laptops. I've also had Firefox work. 
 
 ### Editing the text and buttons.
 
